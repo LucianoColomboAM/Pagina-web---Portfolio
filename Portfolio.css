@@ -1,0 +1,112 @@
+body {
+  font-family: Roboto Mono;
+  background: rgba(10,20,20);
+  color:  #666666;
+  text-align: center;
+}
+h1{margin: 0px;
+  font-size: 75px;
+  line-height: 1.7;
+  color: #666666;
+}
+
+h1:hover{
+  color: black;
+  transition-duration: 1.0s;
+}
+a.button {
+   -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+}
+
+.button{
+  background: black;
+  color: initial;
+  border: 1px outset white;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 1.0s;
+  cursor: pointer;
+  
+}
+
+
+
+
+.myDivPar {
+  border: 1px outset white;
+  background-color: rgba(0,0,0,0.7);
+  text-align: left;
+}
+
+.myDivPar:hover {
+ zoom:1;
+}
+
+
+.myDivImPar {
+  border: 1px outset white;
+  background-color: transparent;
+  text-align: left;
+}
+
+header {
+  width:100%; /* Establecemos que el header abarque el 100% del documento */
+  overflow:hidden; /* Eliminamos errores de float */
+ background-color: black;
+  margin-bottom:0px;
+}
+.wrapper {
+  width:90%; /* Establecemos que el ancho sera del 90% */
+  max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+  margin:auto; /* Centramos los elementos */
+  overflow:hidden; /* Eliminamos errores de float */
+}
+
+header nav {
+  float:right;
+  line-height:200px;
+}
+
+header nav a {
+  display:inline-block;
+  color:#fff;
+  text-decoration:none;
+  padding:10px 20px;
+  line-height:normal;
+  font-size:20px;
+  font-weight:bold;
+  -webkit-transition:all 500ms ease;
+  -o-transition:all 500ms ease;
+  transition:all 500ms ease;
+}
+header nav a:hover {
+  background:white;
+  color: black;
+  border-radius:50px;
+}
+
+.header2 {
+  position: fixed;
+  height:65px
+}
+
+
+.header2 nav {
+  line-height:0px;
+}
+
+header, header nav{
+-webkit-transition:height 1.3s;
+-moz-transition:height 1.3s;
+-ms-transition:height 1.3s;
+-o-transition:height 1.3s;
+transition:height 1.3s;
+}
